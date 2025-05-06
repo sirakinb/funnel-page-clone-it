@@ -2,7 +2,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Users, Link } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 
 const bonuses = [
   {
@@ -14,7 +13,7 @@ const bonuses = [
   {
     id: 2,
     title: 'AI Automation Templates',
-    description: 'Ready-to-use automation workflows for tools like Make.com, and Airtable—accelerate your implementation and kickstart your AI-powered growth.',
+    description: 'Ready-to-use automation workflows for tools like Make.com, Airtable, and UX Pilot—accelerate your implementation and kickstart your AI-powered growth.',
     icon: <Link className="w-8 h-8 text-[#DC2626]" />
   }
 ];
@@ -26,7 +25,7 @@ const LaunchBonuses = () => {
         <div className="bg-white rounded-2xl p-8 md:p-12 shadow-sm">
           <div className="flex justify-center mb-6">
             <div className="inline-block">
-              <div className="bg-[#DC2626] text-white px-6 py-2 text-sm rounded-full font-semibold">
+              <div className="bg-[#ea384c] text-white px-6 py-2 text-sm rounded-full font-semibold">
                 SPECIAL OFFER
               </div>
             </div>
@@ -45,12 +44,6 @@ const LaunchBonuses = () => {
                 <p className="text-gray-700">{bonus.description}</p>
               </div>
             ))}
-          </div>
-          
-          <div className="mt-10 text-center">
-            <Button className="bg-[#DC2626] hover:bg-[#B91C1C] text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform transition hover:translate-y-[-2px]">
-              Order Now
-            </Button>
           </div>
         </div>
       </div>
