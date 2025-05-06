@@ -28,8 +28,8 @@ const AboutAuthor = () => {
                 <p className="text-gray-600 font-semibold mb-3">AI Entrepreneur</p>
                 
                 <p className="text-gray-700 mb-4">
-                  Akinyemi Bajulaiye is the Founder of Pentridge Media, an AI-powered Automation Agency that helps entrepreneurs, service businesses, 
-                  and turn ideas into streamlined, working systems.
+                  Akinyemi Bajulaiye is the Founder of Pentridge Media, an AI-powered Automation Agency that helps entrepreneurs and service businesses 
+                  turn ideas into streamlined, working systems.
                 </p>
                 
                 <p className="text-gray-700 mb-4">
