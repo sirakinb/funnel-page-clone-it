@@ -14,7 +14,7 @@ const bonuses = [
   {
     id: 2,
     title: 'AI Automation Templates',
-    description: 'Ready-to-use automation workflows for tools like Make.com, Airtable, and UX Pilot—accelerate your implementation and kickstart your AI-powered growth.',
+    description: 'Ready-to-use automation workflows for tools like Make.com, ChatGPT, and Airtable—accelerate your implementation and kickstart your AI-powered growth.',
     icon: <Link className="w-8 h-8 text-[#DC2626]" />
   }
 ];
