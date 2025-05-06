@@ -6,7 +6,7 @@ import { Users, Link } from "lucide-react";
 const bonuses = [
   {
     id: 1,
-    title: 'Early Access to Pentridge AI Club',
+    title: 'Free Access to Pentridge Club',
     description: 'Enjoy 1-month free exclusive access to our private AI-focused community, offering resources and continuous support on your AI journey.',
     icon: <Users className="w-8 h-8 text-[#DC2626]" />
   },
