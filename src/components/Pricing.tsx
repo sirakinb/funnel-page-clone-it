@@ -15,7 +15,6 @@ const Pricing = () => {
         <div className="flex justify-center">
           <div className="max-w-3xl w-full bg-white rounded-lg shadow-md overflow-hidden">
             <div className="p-8">
-              {/* Removed the "Digital Playbook Package" heading */}
               
               <div className="grid md:grid-cols-2 gap-8">
                 {/* Book image on left */}
@@ -58,13 +57,12 @@ const Pricing = () => {
                     <span className="text-4xl font-bold">$29</span>
                   </div>
                   
-                  <Button className="w-full bg-[#d32f2f] hover:bg-red-700 text-white font-semibold py-6 text-lg h-auto mt-2">
+                  {/* Smaller button with less height and padding */}
+                  <Button className="w-full bg-[#d32f2f] hover:bg-red-700 text-white font-semibold py-4 text-base h-auto mt-2">
                     Buy Now
                   </Button>
                   
-                  <p className="text-center text-gray-600 mt-3">
-                    Start the journey to mastering AI with this comprehensive guide
-                  </p>
+                  {/* Removed the text that was here */}
                 </div>
               </div>
             </div>
