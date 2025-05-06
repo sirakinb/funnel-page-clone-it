@@ -12,13 +12,13 @@ const Footer = () => {
             everyone will be programming AI in their everyday work.
           </p>
           <button className="bg-[#DC2626] hover:bg-[#B91C1C] text-white font-semibold py-2 px-6 rounded">
-            Get the Playbook Now - $29
+            Get the Playbook Now
           </button>
         </div>
         
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-4 md:mb-0">We Are All Now Programmers</div>
+            <div className="mb-4 md:mb-0">© Pentridge Media 2025, all rights reserved</div>
             
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white">
