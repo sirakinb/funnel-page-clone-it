@@ -46,36 +46,36 @@ const AboutAuthor = () => {
           </CardContent>
         </Card>
         
-        {/* Testimonials Section */}
-        <div className="mt-10 max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold text-center mb-6">What Readers Are Saying</h3>
+        {/* Testimonials Section with more visual contrast */}
+        <div className="mt-16 max-w-4xl mx-auto">
+          <h3 className="text-2xl font-bold text-center mb-8">What Readers Are Saying</h3>
           
           <div className="grid md:grid-cols-2 gap-6">
             {/* Testimonial 1 */}
-            <Card className="border-0 shadow-md">
+            <Card className="border-0 shadow-md bg-[#DC2626] text-white">
               <CardContent className="p-6">
                 <div className="flex flex-col">
-                  <p className="text-gray-700 italic mb-4">
+                  <p className="italic mb-4">
                     "You are literally one of the best at explaining these challenging for beginners ai tech concepts"
                   </p>
                   
                   <div className="flex justify-between items-center mt-auto">
-                    <p className="font-semibold text-gray-800">Sheila Kay</p>
+                    <p className="font-semibold">Sheila Kay</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
             
             {/* Testimonial 2 */}
-            <Card className="border-0 shadow-md">
+            <Card className="border-0 shadow-md bg-[#DC2626] text-white">
               <CardContent className="p-6">
                 <div className="flex flex-col">
-                  <p className="text-gray-700 italic mb-4">
+                  <p className="italic mb-4">
                     "3 thumbs up. Very nicely broken down. Great resources and explanations given"
                   </p>
                   
                   <div className="flex justify-between items-center mt-auto">
-                    <p className="font-semibold text-gray-800">Ron B</p>
+                    <p className="font-semibold">Ron B</p>
                   </div>
                 </div>
               </CardContent>
