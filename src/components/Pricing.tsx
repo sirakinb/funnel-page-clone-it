@@ -55,6 +55,7 @@ const Pricing = () => {
                   </div>
                   
                   <div className="flex items-center gap-3 mt-6">
+                    <span className="text-4xl font-bold">$29</span>
                     <span className="text-gray-500 line-through">$49</span>
                     <span className="bg-red-100 text-red-600 px-2 py-1 text-sm font-semibold rounded">
                       40% OFF
