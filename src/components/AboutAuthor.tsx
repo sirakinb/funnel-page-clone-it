@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
@@ -28,8 +27,7 @@ const AboutAuthor = () => {
                 <p className="text-gray-600 font-semibold mb-3">AI Entrepreneur</p>
                 
                 <p className="text-gray-700 mb-4">
-                  Akinyemi Bajulaiye is the Founder of Pentridge Media, an AI-powered Automation Agency that helps entrepreneurs and service businesses 
-                  turn ideas into streamlined, working systems.
+                  Akinyemi Bajulaiye is the Founder of Pentridge Media, an AI-powered Automation Agency that helps entrepreneurs and organizations build streamlined, effective business systems 
                 </p>
                 
                 <p className="text-gray-700 mb-4">
