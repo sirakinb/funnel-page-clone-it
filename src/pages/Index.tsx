@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import WhyThisMatters from '@/components/WhyThisMatters';
 import WhatsInside from '@/components/WhatsInside';
+import AboutAuthor from '@/components/AboutAuthor';
 import LaunchBonuses from '@/components/LaunchBonuses';
 import Pricing from '@/components/Pricing';
 import Guarantee from '@/components/Guarantee';
@@ -18,6 +19,7 @@ const Index = () => {
         <HeroSection />
         <WhyThisMatters />
         <WhatsInside />
+        <AboutAuthor />
         <LaunchBonuses />
         <Pricing />
         <Guarantee />
