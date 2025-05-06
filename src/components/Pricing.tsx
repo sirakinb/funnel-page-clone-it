@@ -15,7 +15,7 @@ const Pricing = () => {
         <div className="flex justify-center">
           <div className="max-w-3xl w-full bg-white rounded-lg shadow-md overflow-hidden">
             <div className="p-8">
-              <h3 className="font-bold text-2xl text-center mb-6">Digital Playbook Package</h3>
+              {/* Removed the "Digital Playbook Package" heading */}
               
               <div className="grid md:grid-cols-2 gap-8">
                 {/* Book image on left */}
