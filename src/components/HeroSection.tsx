@@ -15,9 +15,7 @@ const HeroSection = () => {
             Your Essential Guide to Understanding, Navigating, and Building in the Age of AI.
           </h2>
           <p className="text-gray-700 mb-8 text-lg">
-            Today, the ability to program with and through AI is a new, powerful
-            leverage that is quickly coming to define work. This book will show you how
-            to participate in this change.
+            We're experiencing one of the biggest shifts in technology since the internet—AI is reshaping industries, redefining careers, and creating unprecedented opportunities.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button className="bg-[#DC2626] hover:bg-[#B91C1C] text-white font-bold py-3 px-6 rounded-md shadow-lg transform transition-all duration-200 hover:translate-y-[-2px] hover:shadow-xl">
