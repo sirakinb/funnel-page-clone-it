@@ -25,21 +25,17 @@ const AboutAuthor = () => {
               
               <div className="md:w-3/5 p-8">
                 <h3 className="text-2xl font-bold mb-3">Akinyemi Bajulaiye</h3>
-                <p className="text-gray-600 font-semibold mb-3">AI Technology Expert & Author</p>
+                <p className="text-gray-600 font-semibold mb-3">AI Entrepreneur</p>
                 
                 <p className="text-gray-700 mb-4">
-                  Akinyemi Bajulaiye has spent the last decade at the intersection of technology and business, 
-                  helping organizations adapt to rapidly changing technological landscapes.
+                  Akinyemi Bajulaiye is the Founder of Pentridge Media, an AI-powered Automation Agency that helps entrepreneurs, service providers, 
+                  and organizations turn ideas into streamlined, working systems.
                 </p>
                 
                 <p className="text-gray-700 mb-4">
-                  With experience working with Fortune 500 companies and startups alike, 
-                  he brings a unique perspective on how AI is transforming work across industries.
-                </p>
-                
-                <p className="text-gray-700">
-                  Through this playbook, Akinyemi shares practical strategies and insights to help you 
-                  navigate the AI revolution and position yourself for success in this new era.
+                  Specializing in practical AI workflows, MVP development, and digital business infrastructures, 
+                  Akinyemi accelerates his clients' growth while actively demystifying emerging technologies—equipping 
+                  communities with the tools, knowledge, and confidence to thrive in a rapidly changing landscape.
                 </p>
               </div>
             </div>
