@@ -23,31 +23,33 @@ const LaunchBonuses = () => {
   return (
     <section className="py-16 bg-[#FEF2F2]">
       <div className="container-custom">
-        <div className="flex justify-center mb-6">
-          <Badge className="bg-[#DC2626] hover:bg-[#DC2626] text-white px-6 py-2 text-sm rounded-full">
-            SPECIAL OFFER
-          </Badge>
-        </div>
-        
-        <h2 className="text-4xl font-bold text-center mb-4">Special Launch Bonuses</h2>
-        <p className="text-center text-gray-700 max-w-3xl mx-auto mb-12">
-          Purchase now and get access to these exclusive bonuses.
-        </p>
-        
-        <div className="grid md:grid-cols-2 gap-8">
-          {bonuses.map((bonus) => (
-            <div key={bonus.id} className="bg-white p-8 rounded-lg shadow-md">
-              <div className="mb-4">{bonus.icon}</div>
-              <h3 className="font-bold text-xl mb-3">{bonus.title}</h3>
-              <p className="text-gray-700">{bonus.description}</p>
-            </div>
-          ))}
-        </div>
-        
-        <div className="mt-10 text-center">
-          <Button className="bg-[#DC2626] hover:bg-[#B91C1C] text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform transition hover:translate-y-[-2px]">
-            Order Now
-          </Button>
+        <div className="bg-white rounded-2xl p-8 md:p-12 shadow-sm">
+          <div className="flex justify-center mb-6">
+            <Badge className="bg-[#DC2626] hover:bg-[#DC2626] text-white px-6 py-2 text-sm rounded-full">
+              SPECIAL OFFER
+            </Badge>
+          </div>
+          
+          <h2 className="text-4xl font-bold text-center mb-4">Special Launch Bonuses</h2>
+          <p className="text-center text-gray-700 max-w-3xl mx-auto mb-12">
+            Purchase now and get access to these exclusive bonuses.
+          </p>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            {bonuses.map((bonus) => (
+              <div key={bonus.id} className="bg-white p-8 rounded-lg shadow-md border border-gray-100">
+                <div className="mb-4">{bonus.icon}</div>
+                <h3 className="font-bold text-xl mb-3">{bonus.title}</h3>
+                <p className="text-gray-700">{bonus.description}</p>
+              </div>
+            ))}
+          </div>
+          
+          <div className="mt-10 text-center">
+            <Button className="bg-[#DC2626] hover:bg-[#B91C1C] text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform transition hover:translate-y-[-2px]">
+              Order Now
+            </Button>
+          </div>
         </div>
       </div>
     </section>
