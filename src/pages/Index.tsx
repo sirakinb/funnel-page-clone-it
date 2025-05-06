@@ -19,10 +19,10 @@ const Index = () => {
         <HeroSection />
         <WhyThisMatters />
         <WhatsInside />
-        <AboutAuthor />
         <LaunchBonuses />
         <Pricing />
         <Guarantee />
+        <AboutAuthor />
         <FAQ />
       </main>
       <Footer />

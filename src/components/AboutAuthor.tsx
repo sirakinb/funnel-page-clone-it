@@ -20,16 +20,16 @@ const AboutAuthor = () => {
                     alt="Author" 
                     className="object-cover"
                   />
-                  <AvatarFallback>JD</AvatarFallback>
+                  <AvatarFallback>AB</AvatarFallback>
                 </Avatar>
               </div>
               
               <div className="md:w-3/5 p-8">
-                <h3 className="text-2xl font-bold mb-3">John Doe</h3>
+                <h3 className="text-2xl font-bold mb-3">Akinyemi Bajulaiye</h3>
                 <p className="text-gray-600 font-semibold mb-3">AI Technology Expert & Author</p>
                 
                 <p className="text-gray-700 mb-4">
-                  John Doe has spent the last decade at the intersection of technology and business, 
+                  Akinyemi Bajulaiye has spent the last decade at the intersection of technology and business, 
                   helping organizations adapt to rapidly changing technological landscapes.
                 </p>
                 
@@ -39,7 +39,7 @@ const AboutAuthor = () => {
                 </p>
                 
                 <p className="text-gray-700">
-                  Through this playbook, John shares practical strategies and insights to help you 
+                  Through this playbook, Akinyemi shares practical strategies and insights to help you 
                   navigate the AI revolution and position yourself for success in this new era.
                 </p>
               </div>
