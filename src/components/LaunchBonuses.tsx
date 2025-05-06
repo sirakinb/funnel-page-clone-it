@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { Users, Link } from "lucide-react";
 
 const bonuses = [
@@ -25,9 +24,11 @@ const LaunchBonuses = () => {
       <div className="container-custom">
         <div className="bg-white rounded-2xl p-8 md:p-12 shadow-sm">
           <div className="flex justify-center mb-6">
-            <Badge className="bg-[#DC2626] hover:bg-[#DC2626] text-white px-6 py-2 text-sm rounded-full">
-              SPECIAL OFFER
-            </Badge>
+            <div className="bg-white px-1 py-1 rounded-full shadow-sm">
+              <div className="bg-[#DC2626] text-white px-6 py-2 text-sm rounded-full font-semibold">
+                SPECIAL OFFER
+              </div>
+            </div>
           </div>
           
           <h2 className="text-4xl font-bold text-center mb-4">Special Launch Bonuses</h2>
