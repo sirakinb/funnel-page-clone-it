@@ -2,6 +2,7 @@
 import React from 'react';
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
+import { ThumbsUp } from "lucide-react";
 
 const AboutAuthor = () => {
   return (
@@ -45,6 +46,49 @@ const AboutAuthor = () => {
             </div>
           </CardContent>
         </Card>
+        
+        {/* Testimonials Section */}
+        <div className="mt-10 max-w-4xl mx-auto">
+          <h3 className="text-2xl font-bold text-center mb-6">What Readers Are Saying</h3>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Testimonial 1 */}
+            <Card className="border-0 shadow-md">
+              <CardContent className="p-6">
+                <div className="flex flex-col">
+                  <p className="text-gray-700 italic mb-4">
+                    "You are literally one of the best at explaining these challenging for beginners ai tech concepts"
+                  </p>
+                  
+                  <div className="flex justify-between items-center mt-auto">
+                    <p className="font-semibold text-gray-800">Sheila Kay</p>
+                    <ThumbsUp className="h-5 w-5 text-blue-500" />
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            {/* Testimonial 2 */}
+            <Card className="border-0 shadow-md">
+              <CardContent className="p-6">
+                <div className="flex flex-col">
+                  <p className="text-gray-700 italic mb-4">
+                    "3 thumbs up. Very nicely broken down. Great resources and explanations given"
+                  </p>
+                  
+                  <div className="flex justify-between items-center mt-auto">
+                    <p className="font-semibold text-gray-800">Ron B</p>
+                    <div className="flex">
+                      <ThumbsUp className="h-5 w-5 text-blue-500 mr-1" />
+                      <ThumbsUp className="h-5 w-5 text-blue-500 mr-1" />
+                      <ThumbsUp className="h-5 w-5 text-blue-500" />
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
       </div>
     </section>
   );
