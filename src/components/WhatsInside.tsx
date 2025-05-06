@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const features = [
@@ -36,7 +35,7 @@ const features = [
 
 const WhatsInside = () => {
   return (
-    <section className="py-16 bg-white">
+    <section id="whats-inside" className="py-16 bg-white">
       <div className="container-custom">
         <h2 className="section-title">What's Inside</h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">

@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { Rocket, Target, Sparkles } from 'lucide-react';
 
 const WhyThisMatters = () => {
   return (
-    <section className="py-16 bg-white">
+    <section id="why-this-matters" className="py-16 bg-white">
       <div className="container-custom">
         <h2 className="section-title">Why This Matters Now</h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
