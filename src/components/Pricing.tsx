@@ -19,7 +19,11 @@ const Pricing = () => {
               {/* Book image */}
               <div className="flex items-center justify-center p-6 bg-gray-100">
                 <div className="w-full max-w-[250px]">
-                  <img src="/placeholder.svg" alt="Digital Playbook" className="w-full h-auto" />
+                  <img 
+                    src="/lovable-uploads/cd430e92-3c4e-46c0-9d10-b5bdd203e965.png" 
+                    alt="Digital Playbook Open Book" 
+                    className="w-full h-auto shadow-md" 
+                  />
                 </div>
               </div>
               
