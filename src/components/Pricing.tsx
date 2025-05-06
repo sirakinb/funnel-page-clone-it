@@ -56,10 +56,6 @@ const Pricing = () => {
                   
                   <div className="flex items-center gap-3 mt-6">
                     <span className="text-4xl font-bold">$29</span>
-                    <span className="text-gray-500 line-through">$49</span>
-                    <span className="bg-red-100 text-red-600 px-2 py-1 text-sm font-semibold rounded">
-                      40% OFF
-                    </span>
                   </div>
                   
                   <Button className="w-full bg-[#d32f2f] hover:bg-red-700 text-white font-semibold py-6 text-lg h-auto mt-2">
