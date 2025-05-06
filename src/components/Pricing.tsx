@@ -9,7 +9,7 @@ const Pricing = () => {
       <div className="container-custom">
         <h2 className="text-4xl font-bold text-center mb-4">Get the Playbook Now</h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-          Start your journey to mastering AI with this comprehensive guide.
+          We're experiencing one of the biggest shifts in technology since the internet—AI is reshaping industries, redefining careers, and unlocking unprecedented opportunities.
         </p>
         
         <div className="flex justify-center">
@@ -55,7 +55,6 @@ const Pricing = () => {
                   </div>
                   
                   <div className="flex items-center gap-3 mt-6">
-                    <span className="text-4xl font-bold">$29</span>
                     <span className="text-gray-500 line-through">$49</span>
                     <span className="bg-red-100 text-red-600 px-2 py-1 text-sm font-semibold rounded">
                       40% OFF
