@@ -2,7 +2,6 @@
 import React from 'react';
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
-import { ThumbsUp } from "lucide-react";
 
 const AboutAuthor = () => {
   return (
@@ -62,7 +61,6 @@ const AboutAuthor = () => {
                   
                   <div className="flex justify-between items-center mt-auto">
                     <p className="font-semibold text-gray-800">Sheila Kay</p>
-                    <ThumbsUp className="h-5 w-5 text-blue-500" />
                   </div>
                 </div>
               </CardContent>
@@ -78,11 +76,6 @@ const AboutAuthor = () => {
                   
                   <div className="flex justify-between items-center mt-auto">
                     <p className="font-semibold text-gray-800">Ron B</p>
-                    <div className="flex">
-                      <ThumbsUp className="h-5 w-5 text-blue-500 mr-1" />
-                      <ThumbsUp className="h-5 w-5 text-blue-500 mr-1" />
-                      <ThumbsUp className="h-5 w-5 text-blue-500" />
-                    </div>
                   </div>
                 </div>
               </CardContent>
