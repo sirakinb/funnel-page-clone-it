@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Users, Link } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 const bonuses = [
   {
@@ -13,7 +14,7 @@ const bonuses = [
   {
     id: 2,
     title: 'AI Automation Templates',
-    description: 'Ready-to-use automation workflows for tools like Make.com, ChatGPT, and Airtable—accelerate your implementation and kickstart your AI-powered growth.',
+    description: 'Ready-to-use automation workflows for tools like Make.com, and Airtable—accelerate your implementation and kickstart your AI-powered growth.',
     icon: <Link className="w-8 h-8 text-[#DC2626]" />
   }
 ];
@@ -24,7 +25,7 @@ const LaunchBonuses = () => {
       <div className="container-custom">
         <div className="bg-white rounded-2xl p-8 md:p-12 shadow-sm">
           <div className="flex justify-center mb-6">
-            <div className="bg-white rounded-full shadow-sm">
+            <div className="inline-block">
               <div className="bg-[#DC2626] text-white px-6 py-2 text-sm rounded-full font-semibold">
                 SPECIAL OFFER
               </div>
