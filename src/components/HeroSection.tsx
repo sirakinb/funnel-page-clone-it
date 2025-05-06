@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import BookImage from './BookImage';
 
 const HeroSection = () => {
   return (
@@ -25,15 +26,8 @@ const HeroSection = () => {
             </Button>
           </div>
         </div>
-        <div className="relative">
-          <img 
-            src="/lovable-uploads/01d35735-1de6-4f55-91a3-a80e2689360c.png" 
-            alt="Book on grass" 
-            className="rounded-lg w-full shadow-lg"
-          />
-          <div className="absolute -bottom-3 -right-3 bg-[#DC2626] text-white px-3 py-1 rounded font-bold">
-            $29.00
-          </div>
+        <div>
+          <BookImage />
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ const BookImage = () => {
   return (
     <div className="relative">
       <img 
-        src="/lovable-uploads/01d35735-1de6-4f55-91a3-a80e2689360c.png" 
+        src="/lovable-uploads/3315cf52-3ede-4211-80aa-ea0d537b6924.png" 
         alt="We Are All Now Programmers Book" 
         className="w-full h-auto rounded-lg shadow-lg"
       />
