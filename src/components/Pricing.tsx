@@ -61,6 +61,10 @@ const Pricing = () => {
                   <Button className="w-full bg-[#d32f2f] hover:bg-red-700 text-white font-semibold py-6 text-lg h-auto mt-2">
                     Buy Now
                   </Button>
+                  
+                  <p className="text-center text-gray-600 mt-3">
+                    Start the journey to mastering AI with this comprehensive guide
+                  </p>
                 </div>
               </div>
             </div>

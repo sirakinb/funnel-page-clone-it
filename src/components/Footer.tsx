@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 
@@ -17,9 +16,6 @@ const Footer = () => {
             <Button className="bg-white hover:bg-gray-100 text-[#d32f2f] font-bold py-2 px-8 rounded-md text-lg h-auto">
               Get the Playbook Now
             </Button>
-            <p className="text-white/90 mt-4 max-w-2xl mx-auto">
-              Start the journey to mastering AI with this comprehensive guide
-            </p>
           </div>
         </div>
       </div>
