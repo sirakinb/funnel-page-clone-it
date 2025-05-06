@@ -1,43 +1,51 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Users, Link } from "lucide-react";
 
 const bonuses = [
   {
     id: 1,
-    title: 'Early Access to Prototype AI Club',
-    description: 'Get direct access to our community of early AI adopters where we share new tools, techniques and insights as they emerge.',
-    icon: '🚀'
+    title: 'Early Access to Pentridge AI Club',
+    description: 'Enjoy 1-month free exclusive access to our private AI-focused community, offering resources and continuous support on your AI journey.',
+    icon: <Users className="w-8 h-8 text-[#DC2626]" />
   },
   {
     id: 2,
     title: 'AI Automation Templates',
-    description: 'A library of ready-to-use AI prompts and workflows to automate repetitive tasks and enhance your productivity.',
-    icon: '📋'
+    description: 'Ready-to-use automation workflows for tools like Make.com, Airtable, and UX Pilot—accelerate your implementation and kickstart your AI-powered growth.',
+    icon: <Link className="w-8 h-8 text-[#DC2626]" />
   }
 ];
 
 const LaunchBonuses = () => {
   return (
-    <section className="py-16 bg-gradient-to-b from-pink-50 to-white">
+    <section className="py-16 bg-[#FEF2F2]">
       <div className="container-custom">
-        <h2 className="section-title">Special Launch Bonuses</h2>
-        <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-          Pre-order now and get access to these bonuses within 3 business days.
+        <div className="flex justify-center mb-6">
+          <Badge className="bg-[#DC2626] hover:bg-[#DC2626] text-white px-6 py-2 text-sm rounded-full">
+            SPECIAL OFFER
+          </Badge>
+        </div>
+        
+        <h2 className="text-4xl font-bold text-center mb-4">Special Launch Bonuses</h2>
+        <p className="text-center text-gray-700 max-w-3xl mx-auto mb-12">
+          Purchase now and get access to these exclusive bonuses.
         </p>
         
         <div className="grid md:grid-cols-2 gap-8">
           {bonuses.map((bonus) => (
-            <div key={bonus.id} className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-              <div className="text-4xl mb-4">{bonus.icon}</div>
-              <h3 className="font-bold text-lg mb-2">{bonus.title}</h3>
-              <p className="text-gray-600">{bonus.description}</p>
+            <div key={bonus.id} className="bg-white p-8 rounded-lg shadow-md">
+              <div className="mb-4">{bonus.icon}</div>
+              <h3 className="font-bold text-xl mb-3">{bonus.title}</h3>
+              <p className="text-gray-700">{bonus.description}</p>
             </div>
           ))}
         </div>
         
         <div className="mt-10 text-center">
-          <Button className="bg-[#DC2626] hover:bg-[#B91C1C] text-white font-semibold py-2 px-8 rounded">
+          <Button className="bg-[#DC2626] hover:bg-[#B91C1C] text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform transition hover:translate-y-[-2px]">
             Order Now
           </Button>
         </div>
