@@ -5,7 +5,7 @@ import { Check } from 'lucide-react';
 
 const Pricing = () => {
   return (
-    <section className="py-16 bg-white">
+    <section id="pricing" className="py-16 bg-white">
       <div className="container-custom">
         <h2 className="text-4xl font-bold text-center mb-4">Get the Playbook Now</h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">

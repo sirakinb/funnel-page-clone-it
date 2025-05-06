@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const AboutAuthor = () => {
   return (
-    <section className="py-16 bg-gray-50">
+    <section id="about-author" className="py-16 bg-gray-50">
       <div className="container-custom">
         <h2 className="text-3xl font-bold text-center mb-10">About the Author</h2>
         
