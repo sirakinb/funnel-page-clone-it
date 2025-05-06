@@ -1,10 +1,8 @@
 import React from 'react';
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
-
 const AboutAuthor = () => {
-  return (
-    <section id="about-author" className="py-16 bg-gray-50">
+  return <section id="about-author" className="py-16 bg-gray-50">
       <div className="container-custom">
         <h2 className="text-3xl font-bold text-center mb-10">About the Author</h2>
         
@@ -13,11 +11,7 @@ const AboutAuthor = () => {
             <div className="flex flex-col md:flex-row">
               <div className="md:w-2/5 bg-gray-100 flex justify-center items-center p-8">
                 <Avatar className="h-52 w-52 rounded-full border-4 border-white shadow-lg">
-                  <AvatarImage 
-                    src="/lovable-uploads/2496c6b5-74fe-436e-b819-7bb36340ba9d.png" 
-                    alt="Author" 
-                    className="object-cover"
-                  />
+                  <AvatarImage src="/lovable-uploads/2496c6b5-74fe-436e-b819-7bb36340ba9d.png" alt="Author" className="object-cover" />
                   <AvatarFallback>AB</AvatarFallback>
                 </Avatar>
               </div>
@@ -26,9 +20,7 @@ const AboutAuthor = () => {
                 <h3 className="text-2xl font-bold mb-3">Akinyemi Bajulaiye</h3>
                 <p className="text-gray-600 font-semibold mb-3">AI Entrepreneur</p>
                 
-                <p className="text-gray-700 mb-4">
-                  Akinyemi Bajulaiye is the Founder of Pentridge Media, an AI-powered Automation Agency that helps entrepreneurs and organizations build streamlined, effective business systems 
-                </p>
+                <p className="text-gray-700 mb-4">Akinyemi Bajulaiye is the Founder of Pentridge Media, an AI-powered Automation Agency that helps entrepreneurs and organizations build streamlined, effective business systems.</p>
                 
                 <p className="text-gray-700 mb-4">
                   Specializing in practical AI workflows, MVP development, and digital business infrastructures, 
@@ -77,8 +69,6 @@ const AboutAuthor = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutAuthor;
