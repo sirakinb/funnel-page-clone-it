@@ -20,8 +20,8 @@ const Pricing = () => {
               <div className="flex items-center justify-center p-6 bg-gray-100">
                 <div className="w-full max-w-[250px]">
                   <img 
-                    src="/lovable-uploads/cd430e92-3c4e-46c0-9d10-b5bdd203e965.png" 
-                    alt="Digital Playbook Open Book" 
+                    src="/lovable-uploads/f562aa8a-d086-4c06-96aa-9814b7ff57a7.png" 
+                    alt="Open Digital Playbook Pages" 
                     className="w-full h-auto shadow-md" 
                   />
                 </div>
