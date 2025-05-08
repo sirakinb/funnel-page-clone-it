@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Linkedin, Instagram, Youtube } from "lucide-react";
@@ -10,10 +9,9 @@ const Footer = () => {
       <div className="bg-[#d32f2f] text-white py-16">
         <div className="container-custom">
           <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">I'm excited for you to explore this guide!</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Start building with AI now</h2>
             <p className="text-white/90 mb-8 max-w-2xl mx-auto text-lg">
-              Start building your future with AI today and gain the skills needed to thrive in 
-              this new technological landscape.
+              Get instant access, lifetime updates, and the systems I use every day.
             </p>
             <Button 
               onClick={() => window.open('https://buy.stripe.com/14k8yk6nm9gc8JGbIL', '_blank')}
