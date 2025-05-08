@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const features = [
@@ -24,7 +25,7 @@ const features = [
   {
     id: 5,
     title: 'Intelligent Agents',
-    description: 'Understand how agents work, how to program them, and how to integrate them into your workflows for automated value.',
+    description: 'Learn about AI agents, what's real versus what's hype, and where this rapidly evolving space is heading in the future.',
   },
   {
     id: 6,
