@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const features = [
@@ -19,7 +18,7 @@ const features = [
   },
   {
     id: 4,
-    title: 'Step-by-Step Playbooks',
+    title: 'Step-by-Step Playbook',
     description: 'Follow detailed workflows for common AI tasks, making adoption seamless and immediately valuable to your work.',
   },
   {
