@@ -25,7 +25,7 @@ const features = [
   {
     id: 5,
     title: 'Intelligent Agents',
-    description: 'Learn about AI agents, what's real versus what's hype, and where this rapidly evolving space is heading in the future.',
+    description: "Learn about AI agents, what's real versus what's hype, and where this rapidly evolving space is heading in the future.",
   },
   {
     id: 6,
