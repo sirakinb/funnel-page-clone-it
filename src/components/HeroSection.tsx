@@ -17,7 +17,7 @@ const HeroSection = () => {
           <p className="text-gray-700 mb-8 text-lg">
             We're experiencing one of the biggest shifts in technology since the internet—AI is reshaping industries, redefining careers, and creating unprecedented opportunities.
           </p>
-          <div>
+          <div className="flex justify-center md:justify-end">
             <Button 
               className="bg-[#DC2626] hover:bg-[#B91C1C] text-white font-bold py-3 px-6 rounded-md shadow-lg transform transition-all duration-200 hover:translate-y-[-2px] hover:shadow-xl"
               onClick={() => window.open('https://buy.stripe.com/14k8yk6nm9gc8JGbIL', '_blank')}
