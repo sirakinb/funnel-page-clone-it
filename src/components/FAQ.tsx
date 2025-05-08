@@ -14,15 +14,15 @@ const faqItems = [
   },
   {
     question: "Do I need coding skills?",
-    answer: "No, this book is designed for both technical and non-technical readers. The techniques taught focus on using AI tools that don't require traditional coding experience."
+    answer: "No, this book is designed for both technical and non-technical readers. We focus on using AI tools that don't require traditional coding experience."
   },
   {
     question: "Is it worth the money?",
-    answer: "Yes. The skills you'll learn will save you hours of work each week and potentially open up new career opportunities. Most readers report earning back the investment within days."
+    answer: "Yes. The skills you'll learn will save you hours of work each week and potentially open up new career opportunities."
   },
   {
     question: "Can I get a refund?",
-    answer: "Absolutely. We offer a 30-day money-back guarantee. If you're not satisfied, simply email us and show us what you tried and why it didn't work for you, and we'll process your refund."
+    answer: "Yes. We offer a 30-day money-back guarantee. If you're not satisfied, simply email us and show us what you tried and why it didn't work for you, and we'll process your refund."
   },
   {
     question: "Will this become outdated?",
