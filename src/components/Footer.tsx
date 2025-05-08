@@ -36,13 +36,9 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a href="https://www.tiktok.com/@sirakinb" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
-                {/* Using SVG for TikTok since lucide-react doesn't have a TikTok icon */}
-                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M9 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
-                  <path d="M16 8v8"></path>
-                  <path d="M12 16v-8"></path>
-                  <path d="M21 11v1a8 8 0 0 1-8 8h-1c-3.3 0-6-2.7-6-6v-1"></path>
-                  <path d="M16 8a4 4 0 0 0-4-4"></path>
+                {/* Using custom SVG for TikTok that matches the provided image */}
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M19.321 5.562a5.124 5.124 0 0 1-5.155-5.156h-3.76v15.98a3.063 3.063 0 0 1-3.063 3.063 3.063 3.063 0 0 1-3.062-3.063 3.063 3.063 0 0 1 3.062-3.063c.17 0 .334.02.495.043v-3.798a6.82 6.82 0 0 0-.495-.017A6.857 6.857 0 0 0 .5 16.407 6.857 6.857 0 0 0 7.343 23.25a6.857 6.857 0 0 0 6.843-6.844V9.328a8.88 8.88 0 0 0 5.135 1.626V7.188a5.113 5.113 0 0 1-3.14-1.042 5.12 5.12 0 0 1 3.14-1.042v-3.76Z" />
                 </svg>
               </a>
               <a href="https://www.youtube.com/@sirakinb" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
