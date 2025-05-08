@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Rocket, Target, Sparkles } from 'lucide-react';
 
@@ -38,9 +39,9 @@ const WhyThisMatters = () => {
             <div className="feature-icon">
               <Sparkles size={32} />
             </div>
-            <h3 className="font-bold text-lg mb-2">Unlock Your Potential</h3>
+            <h3 className="font-bold text-lg mb-2">Maximize Your Potential</h3>
             <p className="text-gray-600">
-              This is not about replacing your role - it's about augmenting what you already know to become more valuable,
+              Augment what you already know to become more valuable,
               creative and productive.
             </p>
           </div>
