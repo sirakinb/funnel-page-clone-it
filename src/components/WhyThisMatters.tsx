@@ -15,7 +15,7 @@ const WhyThisMatters = () => {
             <div className="feature-icon">
               <Rocket size={32} />
             </div>
-            <h3 className="font-bold text-lg mb-2">Unprecedented Shift</h3>
+            <h3 className="font-bold text-lg mb-2">An Unprecedented Time</h3>
             <p className="text-gray-600">
               AI represents the most significant shift in how we operate businesses and structure our workflow
               since computers or today's internet.
