@@ -38,7 +38,7 @@ const Header = () => {
           </button>
         </nav>
         <Button 
-          onClick={() => scrollToSection('pricing')} 
+          onClick={() => window.open('https://buy.stripe.com/14k8yk6nm9gc8JGbIL', '_blank')}
           className="bg-[#DC2626] hover:bg-[#B91C1C] text-white py-2 px-6 rounded-md"
         >
           Buy Now

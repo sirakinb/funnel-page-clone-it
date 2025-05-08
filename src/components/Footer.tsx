@@ -15,7 +15,10 @@ const Footer = () => {
               Start building your future with AI today and gain the skills needed to thrive in 
               this new technological landscape.
             </p>
-            <Button className="bg-white hover:bg-gray-100 text-[#d32f2f] font-bold py-2 px-8 rounded-md text-lg h-auto">
+            <Button 
+              onClick={() => window.open('https://buy.stripe.com/14k8yk6nm9gc8JGbIL', '_blank')}
+              className="bg-white hover:bg-gray-100 text-[#d32f2f] font-bold py-2 px-8 rounded-md text-lg h-auto"
+            >
               Get the Playbook Now
             </Button>
           </div>

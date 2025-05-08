@@ -17,12 +17,12 @@ const HeroSection = () => {
           <p className="text-gray-700 mb-8 text-lg">
             We're experiencing one of the biggest shifts in technology since the internet—AI is reshaping industries, redefining careers, and creating unprecedented opportunities.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-[#DC2626] hover:bg-[#B91C1C] text-white font-bold py-3 px-6 rounded-md shadow-lg transform transition-all duration-200 hover:translate-y-[-2px] hover:shadow-xl">
+          <div>
+            <Button 
+              className="bg-[#DC2626] hover:bg-[#B91C1C] text-white font-bold py-3 px-6 rounded-md shadow-lg transform transition-all duration-200 hover:translate-y-[-2px] hover:shadow-xl"
+              onClick={() => window.open('https://buy.stripe.com/14k8yk6nm9gc8JGbIL', '_blank')}
+            >
               Get the Playbook
-            </Button>
-            <Button variant="outline" className="border-2 border-gray-400 text-gray-800 font-bold py-3 px-6 rounded-md shadow-md hover:bg-gray-100 transform transition-all duration-200 hover:translate-y-[-2px]">
-              Learn More
             </Button>
           </div>
         </div>

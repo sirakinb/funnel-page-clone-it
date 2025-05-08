@@ -57,12 +57,13 @@ const Pricing = () => {
                     <span className="text-4xl font-bold">$29</span>
                   </div>
                   
-                  {/* Smaller button with less height and padding */}
-                  <Button className="w-full bg-[#d32f2f] hover:bg-red-700 text-white font-semibold py-4 text-base h-auto mt-2">
+                  {/* Buy Now button with Stripe link */}
+                  <Button 
+                    onClick={() => window.open('https://buy.stripe.com/14k8yk6nm9gc8JGbIL', '_blank')}
+                    className="w-full bg-[#d32f2f] hover:bg-red-700 text-white font-semibold py-4 text-base h-auto mt-2"
+                  >
                     Buy Now
                   </Button>
-                  
-                  {/* Removed the text that was here */}
                 </div>
               </div>
             </div>
