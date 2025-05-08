@@ -20,12 +20,10 @@ const AboutAuthor = () => {
                 <h3 className="text-2xl font-bold mb-3">Akinyemi Bajulaiye</h3>
                 <p className="text-gray-600 font-semibold mb-3">AI Entrepreneur</p>
                 
-                <p className="text-gray-700 mb-4">Akinyemi Bajulaiye is the Founder of Pentridge Media, an AI-powered Automation Agency that helps entrepreneurs and organizations build streamlined, effective business systems.</p>
+                <p className="text-gray-700 mb-4">Akinyemi Bajulaiye is the Founder of Pentridge Media, an AI-powered Automation Agency that helps entrepreneurs and organizations build streamlined, and effective business systems.</p>
                 
                 <p className="text-gray-700 mb-4">
-                  Specializing in practical AI workflows, MVP development, and digital business infrastructures, 
-                  Akinyemi accelerates his clients' growth while actively demystifying emerging technologies—equipping 
-                  communities with the tools, knowledge, and confidence to thrive in a rapidly changing landscape.
+                  Specializing in practical AI workflows, MVP development, and digital business infrastructures, Akinyemi accelerates his clients' growth while actively demystifying emerging technologies—equipping communities with the tools, knowledge, and confidence to thrive in a rapidly changing landscape.
                 </p>
               </div>
             </div>
