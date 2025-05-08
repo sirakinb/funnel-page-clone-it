@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Rocket, Target, Sparkles } from 'lucide-react';
 
@@ -8,8 +7,7 @@ const WhyThisMatters = () => {
       <div className="container-custom">
         <h2 className="section-title">Why This Matters Now</h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-          AI is transforming how we work, create, and solve problems. This playbook provides
-          the knowledge and tools to turn this shift in your advantage.
+          AI is transforming how we work, create, and solve problems. This playbook provides the knowledge and tools to help you take advantage of this evolution and stay ahead
         </p>
         
         <div className="grid md:grid-cols-3 gap-8">
