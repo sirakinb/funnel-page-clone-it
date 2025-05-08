@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section className="bg-gradient-to-br from-[#F9FAFB] to-[#F3F4F6] py-20">
       <div className="container-custom grid md:grid-cols-2 gap-8 items-center">
         <div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700 leading-[1.1]">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700 leading-[1.1] uppercase">
             We Are All Now Programmers
           </h1>
           <h2 className="text-lg md:text-xl font-semibold text-gray-800 mb-5 drop-shadow-sm">
