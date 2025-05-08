@@ -38,8 +38,7 @@ const WhyThisMatters = () => {
             </div>
             <h3 className="font-bold text-lg mb-2">Maximize Your Potential</h3>
             <p className="text-gray-600">
-              Augment what you already know to become more valuable,
-              creative and productive.
+              Build on your existing skills to increase your value, boost creativity, and get more done.
             </p>
           </div>
         </div>
