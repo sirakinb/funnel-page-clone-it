@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { BookOpenText } from "lucide-react";
 
 const Header = () => {
   const scrollToSection = (sectionId: string) => {
@@ -39,9 +40,9 @@ const Header = () => {
         </nav>
         <Button 
           onClick={() => window.open('https://buy.stripe.com/14k8yk6nm9gc8JGbIL', '_blank')}
-          className="bg-[#DC2626] hover:bg-[#B91C1C] text-white py-2 px-6 rounded-md"
+          className="bg-gradient-to-r from-[#DC2626] to-[#B91C1C] hover:from-[#B91C1C] hover:to-[#991B1B] text-white py-2 px-5 rounded-lg flex items-center gap-2"
         >
-          Buy Now
+          <BookOpenText className="w-4 h-4" /> Buy Now
         </Button>
       </div>
     </header>
