@@ -25,14 +25,14 @@ const LaunchBonuses = () => {
             </div>
           </div>
           
-          <h2 className="text-4xl font-bold text-center mb-4">Special Launch Bonuses</h2>
+          <h2 className="text-4xl font-bold text-center mb-4">Special Launch Bonus</h2>
           <p className="text-center text-gray-700 max-w-3xl mx-auto mb-12">
-            Purchase now and get access to these exclusive bonuses.
+            Purchase now and get access to this exclusive bonus.
           </p>
           
           <div className="flex justify-center">
             {bonuses.map((bonus) => (
-              <div key={bonus.id} className="bg-white p-10 rounded-lg shadow-md border border-gray-100 max-w-2xl">
+              <div key={bonus.id} className="bg-white p-8 rounded-lg shadow-md border border-gray-100 max-w-xl">
                 <div className="flex justify-center mb-6">
                   <div className="p-4 bg-red-50 rounded-full">
                     {bonus.icon}
