@@ -28,8 +28,7 @@ const WhyThisMatters = () => {
             </div>
             <h3 className="font-bold text-lg mb-2">New Skills Required</h3>
             <p className="text-gray-600">
-              Mastery of core AI skills will increasingly define who thrives in this new landscape. Learn what's truly needed
-              rather than hype.
+              Mastery of core AI skills will increasingly define who thrives in this new landscape. Cut through the clutter and learn what you truly need to know
             </p>
           </div>
           
