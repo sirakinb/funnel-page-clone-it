@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Linkedin, Instagram, Youtube, Tiktok } from "lucide-react";
+import { Linkedin, Instagram, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -36,7 +36,14 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a href="https://www.tiktok.com/@sirakinb" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
-                <Tiktok size={20} />
+                {/* Using SVG for TikTok since lucide-react doesn't have a TikTok icon */}
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M9 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
+                  <path d="M16 8v8"></path>
+                  <path d="M12 16v-8"></path>
+                  <path d="M21 11v1a8 8 0 0 1-8 8h-1c-3.3 0-6-2.7-6-6v-1"></path>
+                  <path d="M16 8a4 4 0 0 0-4-4"></path>
+                </svg>
               </a>
               <a href="https://www.youtube.com/@sirakinb" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
                 <Youtube size={20} />
