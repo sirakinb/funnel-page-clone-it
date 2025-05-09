@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
   Accordion,
@@ -10,24 +9,28 @@ import {
 const faqItems = [
   {
     question: "What is this all about?",
-    answer: "This is a comprehensive guide to understanding and using AI tools effectively in your professional and personal life. It covers everything from fundamentals to advanced techniques."
+    answer:
+      "This is a practical playbook designed to help you understand and use AI in your daily work and projects. It cuts through the hype and gives you actionable steps to get started.",
   },
   {
-    question: "Do I need coding skills?",
-    answer: "No, this book is designed for both technical and non-technical readers. We focus on using AI tools that don't require traditional coding experience."
+    question: "Who is this for?",
+    answer:
+      "This playbook is for anyone looking to leverage AI—creators, entrepreneurs, marketers, developers, students, and business owners. If you want to work smarter and faster, this is for you.",
   },
   {
-    question: "Is it worth the money?",
-    answer: "Yes. The skills you'll learn will save you hours of work each week and potentially open up new career opportunities."
-  },
-  {
-    question: "Can I get a refund?",
-    answer: "Yes. We offer a 30-day money-back guarantee. If you're not satisfied, simply email us and show us what you tried and why it didn't work for you, and we'll process your refund."
+    question: "What if I get stuck?",
+    answer:
+      "You'll have access to a community of fellow learners and direct support to help you overcome any challenges and make the most of the playbook.",
   },
   {
     question: "Will this become outdated?",
-    answer: "We provide free lifetime updates to the book. As AI technology evolves, we'll continue updating the content to ensure it remains current and valuable."
-  }
+    answer: "We provide free lifetime updates to the book. As AI technology evolves, we'll continue updating the content to ensure it remains current and valuable.",
+  },
+  {
+    question: "How advanced is the content?",
+    answer:
+      "You don't need to be technical to get value. This playbook is written to meet you where you are—whether you're new to AI or already building with it.",
+  },
 ];
 
 const FAQ = () => {
