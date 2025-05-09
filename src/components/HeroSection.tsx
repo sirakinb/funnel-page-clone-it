@@ -18,12 +18,14 @@ const HeroSection = () => {
             We're experiencing one of the biggest shifts in technology since the internet—AI is reshaping industries, redefining careers, and creating unprecedented opportunities.
           </p>
           <div className="flex justify-center">
-            <Button 
-              asChild 
-              className="px-8 py-6 text-lg bg-black text-white hover:bg-gray-800 shadow-lg transform transition-all duration-200 hover:scale-105"
+            <Button
+              asChild
+              className="group bg-gradient-to-r from-[#DC2626] to-[#B91C1C] hover:from-[#B91C1C] hover:to-[#991B1B] text-white font-bold py-4 px-8 text-lg rounded-xl shadow-lg transform transition-all duration-300 hover:translate-y-[-3px] hover:shadow-xl flex items-center gap-3"
             >
               <a href="https://payhip.com/b/ZPEU2">
+                <BookOpenText className="w-5 h-5" />
                 Get the Playbook
+                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </a>
             </Button>
           </div>

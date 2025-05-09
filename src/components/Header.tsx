@@ -37,9 +37,9 @@ const Header = () => {
             FAQ
           </button>
         </nav>
-        <Button asChild className="bg-black text-white hover:bg-gray-800 shadow-md">
+        <Button asChild className="bg-gradient-to-r from-[#DC2626] to-[#B91C1C] hover:from-[#B91C1C] hover:to-[#991B1B] text-white py-2 px-5 rounded-lg flex items-center gap-2">
           <a href="https://payhip.com/b/ZPEU2">
-            <BookOpenText className="w-4 h-4 mr-2" /> Buy Now
+            <BookOpenText className="w-4 h-4" /> Buy Now
           </a>
         </Button>
       </div>

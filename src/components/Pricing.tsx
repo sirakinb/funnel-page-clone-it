@@ -60,7 +60,7 @@ const Pricing = () => {
                   {/* Buy Now button with Stripe link */}
                   <Button 
                     asChild 
-                    className="w-full py-4 text-lg bg-black text-white hover:bg-gray-800 shadow-lg transform transition-all duration-200 hover:scale-105"
+                    className="w-full bg-[#d32f2f] hover:bg-red-700 text-white font-semibold py-4 text-base h-auto mt-2"
                   >
                     <a href="https://payhip.com/b/ZPEU2">
                       Buy Now

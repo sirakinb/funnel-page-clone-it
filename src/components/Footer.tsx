@@ -15,7 +15,7 @@ const Footer = () => {
             </p>
             <Button 
               asChild
-              className="mt-8 px-10 py-7 text-xl bg-white text-black hover:bg-gray-200 shadow-lg transform transition-all duration-200 hover:scale-105"
+              className="bg-white hover:bg-gray-100 text-[#d32f2f] font-bold py-2 px-8 rounded-md text-lg h-auto"
             >
               <a href="https://payhip.com/b/ZPEU2">
                 Get the Playbook Now
