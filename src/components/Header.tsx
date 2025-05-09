@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { BookOpenText } from "lucide-react";
@@ -38,11 +37,10 @@ const Header = () => {
             FAQ
           </button>
         </nav>
-        <Button 
-          onClick={() => window.open('https://buy.stripe.com/14k8yk6nm9gc8JGbIL', '_blank')}
-          className="bg-gradient-to-r from-[#DC2626] to-[#B91C1C] hover:from-[#B91C1C] hover:to-[#991B1B] text-white py-2 px-5 rounded-lg flex items-center gap-2"
-        >
-          <BookOpenText className="w-4 h-4" /> Buy Now
+        <Button asChild className="bg-black text-white hover:bg-gray-800 shadow-md">
+          <a href="https://payhip.com/b/ZPEU2">
+            <BookOpenText className="w-4 h-4 mr-2" /> Buy Now
+          </a>
         </Button>
       </div>
     </header>

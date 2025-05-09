@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Check } from 'lucide-react';
@@ -8,8 +7,8 @@ const Pricing = () => {
     <section id="pricing" className="py-16 bg-white">
       <div className="container-custom">
         <h2 className="text-4xl font-bold text-center mb-4">Get the Playbook Now</h2>
-        <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-          Start the journey to mastering AI with this comprehensive guide
+        <p className="text-xl text-center text-gray-600 mb-10 max-w-xl mx-auto">
+          Gain instant access to all the strategies, tools, and lifetime updates.
         </p>
         
         <div className="flex justify-center">
@@ -54,15 +53,18 @@ const Pricing = () => {
                   </div>
                   
                   <div className="flex items-center gap-3 mt-6">
-                    <span className="text-4xl font-bold">$29</span>
+                    <span className="text-5xl font-extrabold text-gray-900">$29</span>
+                    <span className="text-xl font-medium text-gray-500">.99</span>
                   </div>
                   
                   {/* Buy Now button with Stripe link */}
                   <Button 
-                    onClick={() => window.open('https://buy.stripe.com/14k8yk6nm9gc8JGbIL', '_blank')}
-                    className="w-full bg-[#d32f2f] hover:bg-red-700 text-white font-semibold py-4 text-base h-auto mt-2"
+                    asChild 
+                    className="w-full py-4 text-lg bg-black text-white hover:bg-gray-800 shadow-lg transform transition-all duration-200 hover:scale-105"
                   >
-                    Buy Now
+                    <a href="https://payhip.com/b/ZPEU2">
+                      Buy Now
+                    </a>
                   </Button>
                 </div>
               </div>

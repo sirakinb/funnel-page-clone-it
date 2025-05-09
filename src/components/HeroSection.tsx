@@ -19,12 +19,12 @@ const HeroSection = () => {
           </p>
           <div className="flex justify-center">
             <Button 
-              className="group bg-gradient-to-r from-[#DC2626] to-[#B91C1C] hover:from-[#B91C1C] hover:to-[#991B1B] text-white font-bold py-4 px-8 text-lg rounded-xl shadow-lg transform transition-all duration-300 hover:translate-y-[-3px] hover:shadow-xl flex items-center gap-3"
-              onClick={() => window.open('https://buy.stripe.com/14k8yk6nm9gc8JGbIL', '_blank')}
+              asChild 
+              className="px-8 py-6 text-lg bg-black text-white hover:bg-gray-800 shadow-lg transform transition-all duration-200 hover:scale-105"
             >
-              <BookOpenText className="w-5 h-5" />
-              Get the Playbook
-              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+              <a href="https://payhip.com/b/ZPEU2">
+                Get the Playbook
+              </a>
             </Button>
           </div>
         </div>

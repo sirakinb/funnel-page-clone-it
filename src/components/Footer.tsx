@@ -14,10 +14,12 @@ const Footer = () => {
               Get instant access, lifetime updates, and the systems I use every day.
             </p>
             <Button 
-              onClick={() => window.open('https://buy.stripe.com/14k8yk6nm9gc8JGbIL', '_blank')}
-              className="bg-white hover:bg-gray-100 text-[#d32f2f] font-bold py-2 px-8 rounded-md text-lg h-auto"
+              asChild
+              className="mt-8 px-10 py-7 text-xl bg-white text-black hover:bg-gray-200 shadow-lg transform transition-all duration-200 hover:scale-105"
             >
-              Get the Playbook Now
+              <a href="https://payhip.com/b/ZPEU2">
+                Get the Playbook Now
+              </a>
             </Button>
           </div>
         </div>
