@@ -18,11 +18,6 @@ const faqItems = [
       "This playbook is for anyone looking to leverage AI—creators, entrepreneurs, marketers, developers, students, and business owners. If you want to work smarter and faster, this is for you.",
   },
   {
-    question: "What if I get stuck?",
-    answer:
-      "You'll have access to a community of fellow learners and direct support to help you overcome any challenges and make the most of the playbook.",
-  },
-  {
     question: "Will this become outdated?",
     answer: "We provide free lifetime updates to the book. As AI technology evolves, we'll continue updating the content to ensure it remains current and valuable.",
   },
